@@ -1,0 +1,28 @@
+.cellsList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 300px;
+    margin: auto;
+    padding-top: 40px;
+    &__button{
+        width: 100px;
+        aspect-ratio: 1;
+        border: 2px solid rgb(4, 99, 201);
+        font-size: 60px;
+        &--o{
+            color: red;
+        }
+        &--x{
+            color: rgb(16, 156, 16);
+        }
+    }
+}
+.stepTitle{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
